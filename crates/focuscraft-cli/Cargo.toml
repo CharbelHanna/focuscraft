@@ -1,0 +1,18 @@
+[package]
+name = "focuscraft-cli"
+description = "Command line driver for FocusCraft."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "focuscraft"
+path = "src/main.rs"
+
+[dependencies]
+focuscraft-core = { path = "../focuscraft-core" }
+anyhow.workspace = true
+clap.workspace = true

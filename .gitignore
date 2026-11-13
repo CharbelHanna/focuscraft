@@ -1,0 +1,8 @@
+/target
+**/*.rs.bk
+*.pdb
+
+# Rendered output and scratch stacks produced while testing.
+/out
+/scratch
+*.focuscraft.bak
