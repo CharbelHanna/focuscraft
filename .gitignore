@@ -6,3 +6,16 @@
 /out
 /scratch
 *.focuscraft.bak
+
+# Claude Code assets. Kept out of the repository: these are local tooling
+# configuration, not part of the application.
+.claude/
+.claude.json
+.claude.local.json
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+
+# (HANDOVER.md is deliberately NOT ignored — it is project documentation that
+# happens to have been written during a Claude session, and it records the
+# licence decision, the colour policy and the machine setup.)
