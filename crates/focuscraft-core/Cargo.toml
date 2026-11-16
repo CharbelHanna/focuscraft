@@ -1,0 +1,19 @@
+[package]
+name = "focuscraft-core"
+description = "Focus stacking: alignment, focus measurement and merging of frames shot at different focal planes."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+image.workspace = true
+tiff.workspace = true
+rayon.workspace = true
+serde.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
