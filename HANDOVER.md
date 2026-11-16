@@ -133,11 +133,11 @@ Notes that still apply:
   `npm.cmd` works, so call it via `cmd //c npm ...`.
 
 Install gotcha worth recording: `rustup-init.exe` must be run **unelevated**, as
-your own user. Run elevated, it installs into the elevating account's profile
-(here, a hidden `C:\Users\ANNUAIRE_frup00092670_$` profile that the normal
-account cannot even read) and writes that account's PATH, leaving `cargo`
-invisible from an ordinary shell. Those stray profile directories are still on
-disk and are best left alone.
+your own user. Run elevated, it installs into the elevating account's profile —
+on a domain machine that can be a hidden `C:\Users\<DOMAIN>_<user>_$` profile the
+normal account cannot even read — and writes that account's PATH, leaving `cargo`
+invisible from an ordinary shell. Any such stray profile directories are best
+left alone.
 
 ## State of the Argentum repo
 
